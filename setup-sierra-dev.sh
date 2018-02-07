@@ -29,8 +29,8 @@ brew install gradle
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-# Kubernetes
-brew cask install virtualbox docker
+# Kubernetes & GCloud
+brew cask install virtualbox docker google-cloud-sdk
 brew install kubectl minikube kubernetes-helm go glide
 
 # Initialize Minikube and Docker
