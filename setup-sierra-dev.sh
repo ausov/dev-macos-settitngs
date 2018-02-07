@@ -65,7 +65,6 @@ Host *.amazonaws.com, *.elasticbeanstalk.com
   User ec2-user
 
 EOL
-```
 
 # Tools
 brew install jq midnight-commander mysql openssl ruby
